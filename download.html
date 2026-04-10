@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.lean-journey.org/download.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Mar 2026 22:11:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download Sean Journey</title>
+
+
+
+
+
+
+
+<style>
+  body {
+    position: relative;
+    overflow-x: hidden;
+    background: #070b18;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+      linear-gradient(180deg, rgba(7,11,24,0.55) 0%, rgba(7,11,24,0.78) 45%, rgba(7,11,24,0.92) 100%),
+      url('assets/images/HCfIzL_no_text.html') center center / cover no-repeat;
+    z-index: -3;
+    transform: scale(1.03);
+  }
+
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(circle at top, rgba(124, 92, 255, 0.22), transparent 35%),
+      radial-gradient(circle at bottom right, rgba(62, 180, 255, 0.14), transparent 30%);
+    z-index: -2;
+    pointer-events: none;
+  }
+
+  .page-wrapper {
+    position: relative;
+    backdrop-filter: saturate(110%);
+  }
+
+  .header,
+  .header__bottom {
+    background: rgba(8, 12, 24, 0.35);
+    backdrop-filter: blur(8px);
+  }
+
+  .download-hero {
+    position: relative;
+    padding: 110px 0 70px;
+  }
+
+  .download-hero .clip-path-img {
+    opacity: 0.28;
+    filter: blur(1px);
+  }
+
+  .download-panel {
+    position: relative;
+    background: linear-gradient(180deg, rgba(17,24,42,0.82) 0%, rgba(10,16,30,0.9) 100%);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 28px;
+    padding: 38px 30px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.35);
+    overflow: hidden;
+  }
+
+  .download-panel::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.06), transparent 45%, rgba(80,140,255,0.06));
+    pointer-events: none;
+  }
+
+  .download-subtitle {
+    max-width: 720px;
+    margin: 18px auto 0;
+    color: rgba(255,255,255,0.78);
+    font-size: 18px;
+    line-height: 1.75;
+  }
+
+  .detail-grid {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .detail-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 20px;
+    padding: 22px 18px;
+    text-align: left;
+    transition: transform .25s ease, border-color .25s ease, background .25s ease;
+  }
+
+  .detail-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255,255,255,0.16);
+    background: rgba(255,255,255,0.06);
+  }
+
+  .detail-card .label {
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    color: rgba(255,255,255,0.48);
+    margin-bottom: 8px;
+  }
+
+  .detail-card strong,
+  .detail-card span,
+  .detail-card p {
+    color: #fff;
+    margin: 0;
+  }
+
+  .hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .hero-actions .cmn-btn,
+  .hero-actions .alt-btn {
+    min-width: 210px;
+  }
+
+  .alt-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 26px;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,0.16);
+    color: #fff;
+    background: rgba(255,255,255,0.05);
+    transition: all .25s ease;
+  }
+
+  .alt-btn:hover {
+    color: #fff;
+    transform: translateY(-2px);
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.26);
+  }
+
+  .download-note {
+    margin-top: 20px;
+    color: rgba(255,255,255,0.58);
+    font-size: 14px;
+  }
+
+  .content-block {
+    padding: 0 0 120px;
+  }
+
+  .glass-box {
+    background: rgba(10,16,30,0.82);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 26px;
+    padding: 32px 28px;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.25);
+    height: 100%;
+  }
+
+  .glass-box h3,
+  .glass-box h4,
+  .glass-box p,
+  .glass-box li,
+  .glass-box span,
+  .glass-box strong {
+    color: #fff;
+  }
+
+  .glass-box p,
+  .glass-box li {
+    color: rgba(255,255,255,0.78);
+  }
+
+  .check-list {
+    list-style: none;
+    padding: 0;
+    margin: 22px 0 0;
+  }
+
+  .check-list li {
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 12px;
+  }
+
+  .check-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #8db8ff;
+  }
+
+  .mini-cta {
+    margin-top: 22px;
+    display: inline-block;
+  }
+
+  .info-strip {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 24px;
+  }
+
+  .info-pill {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 18px;
+    padding: 18px;
+  }
+
+  .footer-section {
+    background-color: transparent !important;
+  }
+
+  @media (max-width: 991px) {
+    .detail-grid,
+    .info-strip {
+      grid-template-columns: 1fr;
+    }
+
+    .download-hero {
+      padding-top: 90px;
+    }
+  }
+
+  .alt-download-btn {
+    opacity: 0.82;
+    filter: saturate(0.9);
+  }
+
+  .alt-download-btn:hover {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+
+</style>
+
+<style>
+.download-warning-overlay{
+position:fixed;
+inset:0;
+background:rgba(4,8,20,.74);
+display:none;
+align-items:center;
+justify-content:center;
+z-index:9999;
+backdrop-filter:blur(10px);
+padding:20px;
+}
+
+.download-warning{
+background:linear-gradient(180deg, rgba(18,26,48,.96) 0%, rgba(9,14,28,.97) 100%);
+border:1px solid rgba(140,102,255,.35);
+padding:32px 28px;
+border-radius:24px;
+text-align:center;
+max-width:440px;
+width:100%;
+color:#fff;
+box-shadow:
+0 0 0 1px rgba(255,255,255,.04) inset,
+0 22px 70px rgba(0,0,0,.55),
+0 0 36px rgba(124,92,255,.18);
+animation:popup .25s ease;
+}
+
+.download-warning-icon{
+width:70px;
+height:70px;
+margin:0 auto 16px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+background:radial-gradient(circle at 30% 30%, rgba(124,92,255,.42), rgba(62,180,255,.15));
+border:1px solid rgba(124,92,255,.42);
+box-shadow:0 0 24px rgba(124,92,255,.24);
+}
+
+.download-warning h3{
+margin:0 0 10px;
+font-size:25px;
+font-weight:700;
+color:#fff;
+}
+
+.download-warning p{
+margin:0;
+font-size:15px;
+line-height:1.65;
+opacity:.88;
+}
+
+.download-warning-actions{
+margin-top:22px;
+display:flex;
+gap:12px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.download-warning-actions .cmn-btn,
+.download-close-btn{
+min-width:190px;
+border:none;
+border-radius:999px;
+padding:14px 22px;
+font-weight:700;
+cursor:pointer;
+transition:.2s ease;
+}
+
+.download-warning-actions .cmn-btn{
+box-shadow:0 10px 28px rgba(124,92,255,.25);
+}
+
+.download-close-btn{
+background:rgba(255,255,255,.06);
+color:#fff;
+border:1px solid rgba(255,255,255,.12);
+box-shadow:0 8px 22px rgba(0,0,0,.18);
+}
+
+.download-close-btn:hover{
+transform:translateY(-1px);
+background:rgba(255,255,255,.10);
+}
+
+@keyframes popup{
+from{transform:translateY(10px) scale(.95);opacity:0}
+to{transform:translateY(0) scale(1);opacity:1}
+}
+</style>
+
+
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#fff}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,calc(100% - 32px));margin:0 auto}
+.row{display:flex;flex-wrap:wrap;margin:0 -12px}
+.justify-content-center{justify-content:center}
+.align-items-center{align-items:center}
+.text-center{text-align:center}
+.text-md-left{text-align:left}
+.col-xl-10,.col-lg-6,.col-lg-7,.col-md-6{width:100%;padding:0 12px}
+@media (min-width:992px){
+  .col-lg-6{width:50%}
+  .col-lg-7{width:58.3333%}
+}
+@media (min-width:1200px){
+  .col-xl-10{width:83.3333%}
+}
+.mb-30{margin-bottom:30px}
+.mb-4{margin-bottom:1.5rem}
+.navbar{display:flex;align-items:center;justify-content:space-between;min-height:76px}
+.site-logo img{height:46px;width:auto;border-radius:12px}
+.nav-right a,.cmn-btn,.alt-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:14px 24px;border-radius:999px;font-weight:700
+}
+.nav-right a{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12)}
+.cmn-btn.style--two{
+  background:linear-gradient(135deg,rgba(123,95,255,.78),rgba(62,180,255,.78));
+  border:1px solid rgba(255,255,255,.10);
+  box-shadow:0 12px 28px rgba(0,0,0,.24)
+}
+.section-header .header-image img{max-height:60px;width:auto}
+.section-title{margin:10px 0 0;font-size:32px;line-height:1.1}
+.copy-right-text{color:rgba(255,255,255,.72)}
+.copy-right-text a{color:#fff}
+.preloader,.scroll-to-top{display:none!important}
+.clip-path-img{
+  position:absolute;inset:0;overflow:hidden;pointer-events:none
+}
+.clip-path-img img{
+  width:100%;height:100%;object-fit:cover;object-position:center
+}
+.inner-hero{position:relative}
+.footer-bottom{padding:12px 0}
+@media (max-width:767px){
+  .section-title{font-size:28px}
+}
+</style>
+
+</head>
+<body>
+
+<div class="download-warning-overlay" id="downloadWarning">
+  <div class="download-warning">
+    <div class="download-warning-icon">⚠</div>
+    <h3>Download Notice</h3>
+    <p>If the main file doesn’t work, use the alternative download below.</p>
+    <div class="download-warning-actions">
+      <a href="https://gofile.io/d/JyLgkU" class="cmn-btn style--two" id="alternativeDownloadBtn">Alternative Download</a>
+      <button type="button" class="download-close-btn" id="downloadCloseBtn">Close</button>
+    </div>
+  </div>
+</div>
+
+<div class="preloader">
+  <div class="spinner">
+    <div class="dot1"></div>
+    <div class="dot2"></div>
+  </div>
+</div>
+
+<div class="scroll-to-top">
+  <span class="scroll-icon"><i class="las la-arrow-up"></i></span>
+</div>
+
+<div class="page-wrapper">
+  <header class="header">
+    <div class="header__bottom">
+      <div class="container">
+        <nav class="navbar navbar-expand-xl align-items-center">
+          <a class="site-logo site-title" href="index-2.html">
+            <img src="assets/images/Jruzk6.png" alt="Lean Journey logo">
+          </a>
+          <div class="nav-right">
+            <a href="index-2.html">Home</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="inner-hero style--three download-hero">
+    <div class="clip-path-img"><img src="assets/images/HCfIzL_no_text.html" alt="Sean Journey artwork"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-10">
+          <div class="download-panel text-center">
+            <h1 class="game-name">Download Sean Journey Beta</h1>
+            <p class="download-subtitle">
+              The official download page
+            </p>
+
+            <div class="detail-grid">
+              <div class="detail-card">
+                <span class="label">Version</span>
+                <strong>Latest Beta Build</strong>
+              </div>
+              <div class="detail-card">
+                <span class="label">Platform</span>
+                <strong>Windows 10 / 11</strong>
+              </div>
+              <div class="detail-card">
+                <span class="label">Format</span>
+                <strong>ZIP Package</strong>
+              </div>
+            </div>
+
+            <div class="hero-actions">
+              <a href="downloads/Lean%20Journey.zip" class="cmn-btn style--two" download id="downloadBetaBtn">Download Beta</a>
+              <a href="https://gofile.io/d/JyLgkU" class="cmn-btn style--two alt-download-btn" download>Alternative Download</a>
+              <a href="#details" class="alt-btn">View Details</a>
+            </div>
+
+            <p class="download-note">SEAN JOURNEY</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-block" id="details">
+    <div class="container">
+      <div class="row mb-none-30">
+        <div class="col-lg-6 mb-30">
+          <div class="glass-box">
+            <div class="section-header has--bg mb-4">
+              <div class="header-image justify-content-start"><img src="assets/images/Jruzk6.png" alt="Game info"></div>
+              <h2 class="section-title">Download Details</h2>
+            </div>
+            <p>
+              If you encounter any problems, please contact the developer.            </p>
+            <ul class="check-list">
+              <li>Prepared as a direct ZIP download</li>
+              <li>Sometimes it might get stuck; try closing it from Task Manager and try again</li>
+              <li>Soft and easy installation</li>
+              <li>Automatically update system</li>
+            </ul>
+            <a href="downloads/Lean%20Journey.zip" class="cmn-btn style--two mini-cta" download>Start Download</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mb-30">
+          <div class="glass-box">
+            <div class="section-header has--bg mb-4">
+              <div class="header-image justify-content-start"><img src="assets/images/TeXZTr.png" alt="Header art"></div>
+              <h2 class="section-title">Before You Install</h2>
+            </div>
+            <p>
+              After downloading, do not extract the ZIP file and run it in the zip for the best experience.
+            </p>
+            <div class="info-strip">
+              <div class="info-pill">
+                <span class="label">OS</span>
+                <strong>Windows</strong>
+              </div>
+              <div class="info-pill">
+                <span class="label">Build Type</span>
+                <strong>Beta</strong>
+              </div>
+              <div class="info-pill">
+                <span class="label">Language</span>
+                <strong>English</strong>
+              </div>
+            </div>
+            <ul class="check-list">
+              <li>Run the game without extract</li>
+              <li>Use this page to get the latest version</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-section bg_img" data-background="images/elements/footer.png">
+    <div class="container">
+      <div class="row footer-bottom align-items-center">
+        <div class="col-lg-7 col-md-6 text-md-left text-center">
+          <p class="copy-right-text">Copyright &copy; 2026. All Rights Reserved By <a href="index-2.html">Sean Journey</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const btn = document.getElementById("downloadBetaBtn");
+  const warn = document.getElementById("downloadWarning");
+  const closeBtn = document.getElementById("downloadCloseBtn");
+  const altBtn = document.getElementById("alternativeDownloadBtn");
+
+  if (btn && warn) {
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      warn.style.display = "flex";
+
+      setTimeout(function () {
+        window.location.href = btn.getAttribute("href");
+      }, 1200);
+
+      setTimeout(function () {
+        warn.style.display = "none";
+      }, 3200);
+    });
+  }
+
+  if (closeBtn && warn) {
+    closeBtn.addEventListener("click", function () {
+      warn.style.display = "none";
+    });
+  }
+
+  if (warn) {
+    warn.addEventListener("click", function (e) {
+      if (e.target === warn) {
+        warn.style.display = "none";
+      }
+    });
+  }
+
+  if (altBtn && warn) {
+    altBtn.addEventListener("click", function () {
+      warn.style.display = "none";
+    });
+  }
+});
+</script>
+</body>
+
+<!-- Mirrored from www.lean-journey.org/download.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Mar 2026 22:11:03 GMT -->
+</html>
